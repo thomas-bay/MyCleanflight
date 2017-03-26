@@ -907,7 +907,7 @@ CFLAGS		 = $(ARCH_FLAGS) \
 		   -D'__REVISION__="$(REVISION)"' \
 		   -fverbose-asm -ffat-lto-objects \
 		   -save-temps=obj \
-		   -MMD -MP
+		   -MMD -MP -v
 
 ASFLAGS		 = $(ARCH_FLAGS) \
 		   $(WARN_FLAGS) \
